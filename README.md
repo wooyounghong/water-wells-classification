@@ -25,10 +25,6 @@ Below I will show EDA process and insights:
 #### Target:  Water Well Status Group:
 Target variable for this dataset was status of the water point. It originally had three classes, but I switched it to binary classification because I believed that non functional also may need repair and wanted to show that the wellpoint are either functional or need repairs.
 
-![target_bar_chart](/plots/target_dist_bar.png)
-![bar_target](./plots/circle_target.png)
-
-
 #### Predictors: 
 There were 39 predictors in this dataset, but I had found out through EDA and seeing the unique values of the columns to drop as they were repetitive or there was no importance.
 
