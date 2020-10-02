@@ -41,12 +41,14 @@ Here we can notice that the graph shows that the more recent year that the well 
 
 
 ![permit_bar](./plots/permit_bar.png)
+
 Upon seeing this column, I was curious on how having a permit or not would make an impact to its status group. Here, we can see that there are more waterpoints with permit than no permit. This is probably because there is some regulation or maintenance to keep permit for the well point. We can note that there isn't a really clear relationship so I went further to do a hypothesis test to see if this has any significance. Using two sample z test for proptions, I was able to find that it is significant as the test statistic is in the rejection region. 
 
 
 ###### Payment
 
 ![payment_bar](/plots/payment_bar.png)
+
 From this graph, we can clearly see that if not paying, there are alot more well points that need repairs. This is probably due to the fact that because there are no money coming in, there is less concerns about the wellpoints that do not require payment(maintenance). 
 
 
@@ -54,7 +56,9 @@ From this graph, we can clearly see that if not paying, there are alot more well
 
 ### Model Evaluations:
 #### Evaluation:
-After comparing Logistic Regression, KNN, Decision Tree, Random Forest, and Voting Classifier, I was able to determine that Random Forest gave me the best recall score and second best F1 score.  I chose this model because the importance of recall to minimize the false positive as that will make the organizations who are going to well points to repair may find out once they get there that there is nothing to fix. This would be a high cost. 
+After comparing Logistic Regression, KNN, Decision Tree, Random Forest, and Voting Classifier, I was able to determine that Random Forest gave me the best recall score and second best F1 score.  I chose this model because the importance of recall to minimize the false positive as that will make the organizations who are going to well points to repair may find out once they get there that there is nothing to fix. This would be a high cost.
+
+
 ![features](/plots/important_features.png)
 ![matrix](/plots/matrix.png)
 
