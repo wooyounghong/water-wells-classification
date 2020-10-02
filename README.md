@@ -25,14 +25,14 @@ Below I will show EDA process and insights:
 #### Target:  Water Well Status Group:
 Target variable for this dataset was status of the water point. It originally had three classes, but I switched it to binary classification because I believed that non functional also may need repair and wanted to show that the wellpoint are either functional or need repairs.
 
-![target_bar_chart](/plots/target_dist_bar.png)
+![target_bar_chart](./plots/target_dist_bar.png)
 
 #### Predictors: 
 There were 39 predictors in this dataset, but I had found out through EDA and seeing the unique values of the columns to drop as they were repetitive or there was no importance.
 
 ##### Year of Construction:
 
-![construction_year](/plots/construction_year_line.png)
+![construction_year](./plots/construction_year_line.png)
 
 Here we can notice that the graph shows that the more recent year that the well was constructed, it is still functional. We can notice its relationship to the year it was built and it is likely to be functioning. 
 
@@ -40,7 +40,7 @@ Here we can notice that the graph shows that the more recent year that the well 
 ###### Permit:
 
 
-![permit_bar](/plots/permit_bar.png)
+![permit_bar](./plots/permit_bar.png)
 Upon seeing this column, I was curious on how having a permit or not would make an impact to its status group. Here, we can see that there are more waterpoints with permit than no permit. This is probably because there is some regulation or maintenance to keep permit for the well point. We can note that there isn't a really clear relationship so I went further to do a hypothesis test to see if this has any significance. Using two sample z test for proptions, I was able to find that it is significant as the test statistic is in the rejection region. 
 
 
