@@ -26,7 +26,7 @@ Below I will show EDA process and insights:
 Target variable for this dataset was status of the water point. It originally had three classes, but I switched it to binary classification because I believed that non functional also may need repair and wanted to show that the wellpoint are either functional or need repairs.
 
 ![target_bar_chart](/plots/target_dist_bar.png)
-![bar_target](./plots/target_dist_bar.png)
+![bar_target](./plots/circle_target.png)
 
 
 #### Predictors: 
